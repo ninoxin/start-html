@@ -1,0 +1,141 @@
+/* селектор {
+    свойство : значение;
+    свойство : значение;
+    свойство : значение;
+    свойство : значение;
+} */
+@font-face {
+    font-family: 'Frankinity'; /* Название шрифта, самим придумать можно */
+    src: url(Nautilus.otf);
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+body{
+    color: rgb(255, 255, 255); /* Цвет текста */
+    background: rgb(255, 193, 193); /* Цвет или картинка фона */
+    
+}
+a{
+    
+    font-size: 18px; /* Размер шрифта */
+    font-weight: 700; /* Насыщенность шрифта */
+    text-align: center; /* Выравнивание текста */
+    text-decoration: double; /* Подчеркивание, зачеркивание и тд */
+    line-height: 25px; /* Межстрочный интервал */
+    color: brown; /* Цвет текста */
+    
+
+}
+#btn{
+    padding: 20px; /* Отступ внутренний */
+    margin: 30px; /* Отступ внешний */
+    width: 300px;/* Ширина */
+    height: 100px; /* высота */
+    border: 10px solid #000; /* Рамка */
+    border-radius: 50%; /* Скругление рамки */
+    box-shadow: #000 15px 15px 15px; /* Тень элемента */
+    border-bottom-color: rgb(17, 0, 80);
+    border-top-color: rgb(201, 255, 5);
+    border-left-color: rgb(255, 0, 217);
+    border-right-color: rgb(225, 5, 174);
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+ul{
+    list-style-type: square; /* Стиль маркера списка */
+}
+
+h2{
+    font-family: 'Frankinity';
+}
+
+.links{
+    font-size: 16px;
+}
+.header{ 
+    position: relative;
+}
+
+ul li {
+    color: blue;
+}
+
+ol li {
+    color: red;
+}
+
+
+.links a {
+    color: aqua;
+}
+.container{
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+}
+header{
+    padding-top:50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer-block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+a:hover {
+    color: #000;
+    font-size: 20px;
+}
+input::placeholder {
+    font-size: 18px;
+    color: #f90000;
+}
+.links :last-child{
+    font-size: 10px;
+    color: #f90000;
+}
+.links :first-child{
+    font-size: 10px;
+    color: #f90000;
+}
+
+.links :nth-child(3) {
+    font-size: 10px;
+    color: #f90000;
+
+}
+img {
+    filter: blur(1px);
+    animation: hov 2s ease  infinite;
+}
+
+@keyframes hov {
+    0%{ opacity: 1;}
+    50% { opacity: .5; }
+    100% { opacity: 0;}
+}

@@ -139,3 +139,32 @@ img {
     50% { opacity: .5; }
     100% { opacity: 0;}
 }
+
+
+@media (max-width: 1024px) {
+    *{
+        font-size: 16px;
+    }
+    .container{
+        max-width: 900px;
+    }
+    a {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+    .container{
+        max-width: 800px;
+    }
+    button{
+        width: 150px;
+    }
+}
+
+@media screen and (device-width: 374px) {
+    .container{
+        max-width: 400px;
+    }
+}
